@@ -13,4 +13,5 @@ plusKartkaGuzior.addEventListener('click', () => {
     obLicz.innerText = `${obecnie + 1}`
 
     new Kartka()
+    //ffff
 })
