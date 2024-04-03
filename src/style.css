@@ -1,0 +1,102 @@
+body {
+    background-color: lightcyan;
+    user-select: none;
+}
+
+.plusBTN {
+    position: absolute;
+    z-index: 2;
+    top: 8px;
+}
+
+.counterr {
+    position: absolute;
+    right: 20px;
+    z-index: 2;
+    background-color: lightgray;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: block;
+    top: 8px;
+}
+
+.kartka {
+    width: 200px;
+    height: 200px;
+    background-color: lightyellow; 
+    border: 2px solid saddlebrown;
+    border-radius: 5px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 0;
+    top: 40px;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.btnCunt {
+    height: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    float: right;
+}
+
+.notkabtn {
+    width: 20px;
+    height: 20px;
+    color: transparent;
+    border: none;
+}
+
+.edit-icon {
+    background-image: url(../img/edit-icon.png);
+}
+
+.delete-icon {
+    background-image: url(../img/delete-icon.png);
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.resizer {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/resize-icon.png);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: se-resize;
+}
+
+.textBox{
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    margin: 20px;
+    margin-right: 20px;
+    background-color: rgb(250, 250, 188);
+    padding: 5px;
+    font-size: large;
+}
+
+.paragraph {
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+
+}
+
+.writeBox {
+    position: relative;
+    margin-top: 120px;
+    padding: 5px;
+    font-size: large;
+    z-index: 2147483657;
+    margin-left: 190px;
+    margin-right: 190px;
+}
